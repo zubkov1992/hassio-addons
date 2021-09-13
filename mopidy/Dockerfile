@@ -22,10 +22,13 @@ RUN pip3 install --no-cache-dir --user Mopidy-MPD==3.1.0 &&\
       ls -al /root/.local/lib/python3.9/site-packages
 
 
+FROM build-base AS mopidy-yandexmusic
 
 RUN pip3 install --no-cache-dir --user Mopidy-Yandexmusic==0.0.6 &&\
       ls -al /root/.local/lib/python3.9/site-packages
 
+
+FROM build-base AS mopidy-mowecl
 
 RUN pip3 install --no-cache-dir --user Mopidy-Mowecl==0.4.3 &&\
       ls -al /root/.local/lib/python3.9/site-packages
