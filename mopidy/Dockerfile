@@ -29,8 +29,8 @@ RUN \
         libxml2-dev=2.9.4+dfsg1-7+deb10u2 \
         libxslt1-dev=1.1.32-2.2~deb10u1 \
         libasound2-dev=1.1.8-1 \
-        libspotify12=12.1.51-1 \
-        libspotify-dev=12.1.51-1 \
+        libspotify12=12.1.103 \
+        libspotify-dev=12.1.103 \
         zlib1g-dev=1:1.2.11.dfsg-1 \
         build-essential=12.6 \
         python3-dev=3.7.3-1 \
