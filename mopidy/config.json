@@ -8,7 +8,7 @@
   "ingress": true,
   "ingress_entry": "iris/",
   "ingress_stream": true,
-  "arch": ["amd64", "armhf"],
+  "arch": ["amd64", "armv7"],
   "auth_api": true,
   "audio": true,
   "ports": {
